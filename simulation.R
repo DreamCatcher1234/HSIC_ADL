@@ -1,7 +1,7 @@
 # Please set the working directory "ROOT_DIR" before running.
 # To run only a specific simulation setting, identify the corresponding row(s) in all_config and replace "seq_len(nrow(all_config))" in line 159 with the desired configuration index or indices. For example, if the target setting corresponds to the first row of all_config, use 1; if several specific settings are required, specify their corresponding indices, such as c(1, 5, 10).
 # The number of Monte Carlo replications can be controlled by the n_sim parameter in line 8. To change the number of replications, simply modify the value of n_sim. For example, n_sim <- 1000 runs 1,000 Monte Carlo replications for each selected simulation setting.
-ROOT_DIR <- "Z:/User/Documents/paper2"
+ROOT_DIR <- here()
 setwd(ROOT_DIR)
 source("dhsic.test.R")
 source("01_code_functions.R")
