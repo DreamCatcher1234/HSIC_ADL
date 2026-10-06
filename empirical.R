@@ -3,6 +3,7 @@ library(dplyr)
 library(ggplot2)
 library(showtext)
 ROOT_DIR <- here()
+setwd(ROOT_DIR)
 DATA_FILE <- "depmap_l1000_causal_data.csv"
 SOURCE_FILE <- "01_code_functions.R"
 setwd(ROOT_DIR)
