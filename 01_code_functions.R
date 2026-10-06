@@ -9,6 +9,7 @@ library(Matrix)
 library(extracat)
 library(mclust)
 library(CBPS)
+library(here)
 # Fit a random forest and return predictions for a test set.
 fit_rf_pred <- function(x_train, y_train, x_test, ntree = 300) {
   x_train <- as.data.frame(x_train)
