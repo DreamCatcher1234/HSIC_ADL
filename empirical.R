@@ -2,7 +2,6 @@ library(data.table)
 library(dplyr)
 library(ggplot2)
 library(showtext)
-library(here)
 ROOT_DIR <- here()
 DATA_FILE <- "depmap_l1000_causal_data.csv"
 SOURCE_FILE <- "01_code_functions.R"
