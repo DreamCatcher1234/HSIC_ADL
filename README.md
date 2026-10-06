@@ -10,7 +10,7 @@ Repository Structure
 dhsic.test.R: Auxiliary independence testing functions based on Hilbert-Schmidt Independence Criterion (HSIC).
 simulation.R: Script for running parallelized Monte Carlo numerical simulations.
 depmap_l1000_causal_data.csv: Preprocessed empirical genomic dataset from the DepMap L1000 benchmark.
-empirical.R: Code for real-data application and empirical causal inference analysis.
+empirical.R: Code for real data application and empirical causal inference analysis.
 
 Quick Start & Reproducibility Guide
 To reproduce the results or run quick verification tests, execute the scripts in the following order:
